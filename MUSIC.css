@@ -1,0 +1,25 @@
+/* (PART A) SPLASH SCREEN */
+#splash {
+  /* (A1) FULLSCREEN */
+  position: fixed; top: 0; left: 0; z-index: 999;
+  width: 100vw; height: 100vh;
+
+  /* (A2) CENTER */
+  display: flex;
+  align-items: center; justify-content: center;
+
+  /* (A3) COSMETICS */
+  font-size: 24px;
+  color: #fff; background: #000;
+}
+
+/* (A4) TO HIDE THE SPLASH SCREEN */
+#splash.hide {
+  opacity: 0; visibility: hidden;
+  transition: all 1s;
+}
+
+/* NOT IMPORTANT - COSMETICS */
+* {
+  
+}
